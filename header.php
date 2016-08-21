@@ -30,29 +30,29 @@
 <!-- Comment out to turn off, uncomment to turn on-->
 <!--<div id="gridwrapper">
 	<div id="grid">
-		<div class="gridcolumn col1">
+		<div class="col1">
 		</div>
-		<div class="gridcolumn col2">
+		<div class="ol2">
 		</div>
-		<div class="gridcolumn col3">
+		<div class="col3">
 		</div>
-		<div class="gridcolumn col4">
+		<div class="col4">
 		</div>
-		<div class="gridcolumn col5">
+		<div class="col5">
 		</div>
-		<div class="gridcolumn col6">
+		<div class="col6">
 		</div>
-		<div class="gridcolumn col7">
+		<div class="col7">
 		</div>
-		<div class="gridcolumn col8">
+		<div class="col8">
 		</div>
-		<div class="gridcolumn col9">
+		<div class="col9">
 		</div>
-		<div class="gridcolumn col10">
+		<div class="col10">
 		</div>
-		<div class="gridcolumn col11">
+		<div class="col11">
 		</div>
-		<div class="gridcolumn col12">
+		<div class="col12">
 		</div>
 	</div><!--end #grid-->
 <!--</div><!--end #gridwrapper-->
