@@ -1,0 +1,229 @@
+/*
+Theme Name: Elemental - WordPress Theme Starter
+Author: Amber Leigh Turner of January Creative
+Author URI: januarycreative.com
+Description: Basic Starter WordPress Theme
+Version: 0.1 (August 2016)
+*/
+
+/**
+ * DEV  - Dev Grid
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Repeatable Design Classes
+ * CH05 - Header & Navigation
+ * CH06 - Content & Media
+ * CH07 - Footer
+ * CH08 - Print Styles
+ * CH09 - Responsive Media Queries
+**/
+
+/* ============================ DEV - DEV GRID ============================ */
+
+#gridwrapper {
+	/* Places grid fixed on the viewport */
+	position: fixed;
+	width: 100%;
+	opacity: .10;
+}
+
+#grid {
+	/* Site Width = 1200 + Padding left and right = 80 == 1360px */
+	max-width: 1360px;
+	/* Padding top and bottom (same as your column margins); padding left and right (from above) */
+	padding: 0 80px;
+	/* Center the div horizontally */						
+	margin: 0 auto;
+	/* To make sure the columns extend the entire height of the viewport */
+	height: 10000000px;
+	overflow: hidden;
+}
+
+.gridcolumn {
+	width: 6.5%;
+	height: 100%;
+	float: left;
+	margin-right: 2%;
+	background-color: black;
+}
+
+.gridcolumn:last-child { margin-right: 0; }
+
+
+/* ============================ CH01 - RESETS ============================ */
+/* Basic CSS resets so that all browsers start on a mostly level playing field */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body { line-height: 1; }
+
+ol, 
+ul { 
+	list-style: none;
+}
+
+blockquote, 
+q { 
+	quotes: none;
+}
+
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ===== CUSTOM RESET ===== */
+
+/* apply a natural box layout model to all elements - allows for proper use of padding and margins relative to width and height */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;
+}
+
+
+/* ============================ CH02 - TYPOGRAPHY ============================ */
+/* CSS for headings, paragraphs, links, blockquotes, lists, forms, buttons. */
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+p {
+	
+}
+
+p.large {
+	
+}
+
+small {
+	
+}
+
+em {
+	
+}
+
+a {
+	
+}
+
+a:hover {
+	
+}
+
+button,
+a.button {
+	
+}
+
+blockquote {
+	
+}
+
+ul, ol {
+	
+}
+
+li {
+	
+}
+
+img {
+	
+}
+
+fieldset {
+	
+}
+
+input {
+	
+}
+
+
+/* ============================ CH03 - PAGE STRUCTURE ============================ */
+/* High level page elements: containers, page content, sidebars */
+
+.contentwidth {
+	/* Used as a container to have a "max width" on elements, but may want to have a padding to keep away from edges of viewport */
+	
+	/* Site Width = 1200 + Padding left and right = 80 == 1360px */
+	max-width: 1360px;
+	/* Center the div horizontally */						
+	margin: 0 auto;
+	/* Padding top and bottom (same as your column margins); padding left and right (from above) */
+	padding: 25px 80px;						
+}
+
+#pagecontent {
+	
+}
+
+#sidebar {
+	/* Unordered List */
+}
+
+/* ============================ CH04 - REPEATABLE DESIGN CLASSES ============================ */
+/* Design elements that are used on several pages, that should be kept consistent. */
+
+
+
+/* ============================ CH05 - HEADER & NAVIGATION ============================ */
+
+
+
+/* ============================ CH06 - CONTENT & MEDIA ============================ */
+
+
+
+/* ============================ CH07 - FOOTER ============================ */
+
+
+
+/* ============================ CH08 - PRINT STYLES ============================ */
+
+
+
+/* ============================ CH09 - RESPONSIVE MEDIA QUERIES ============================ */
