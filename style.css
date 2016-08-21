@@ -29,6 +29,8 @@ Version: 0.1 (August 2016)
 }
 
 #grid {
+	/* Flexbox Grid */
+	display: flex;
 	/* Site Width = 1200 + Padding left and right = 80 == 1360px */
 	max-width: 1360px;
 	/* Padding top and bottom (same as your column margins); padding left and right (from above) */
@@ -37,18 +39,17 @@ Version: 0.1 (August 2016)
 	margin: 0 auto;
 	/* To make sure the columns extend the entire height of the viewport */
 	height: 10000000px;
-	overflow: hidden;
 }
 
-.gridcolumn {
-	width: 6.5%;
+#grid > div {
+	flex: 1;
+	margin: 0 1%;
 	height: 100%;
-	float: left;
-	margin-right: 2%;
 	background-color: black;
 }
 
-.gridcolumn:last-child { margin-right: 0; }
+#grid > div:first-child { margin-left: 0; }
+#grid > div:last-child { margin-right: 0; }
 
 
 /* ============================ CH01 - RESETS ============================ */
