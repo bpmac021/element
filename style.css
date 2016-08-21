@@ -41,7 +41,8 @@ Version: 0.1 (August 2016)
 	height: 10000000px;
 }
 
-#grid > div {
+#grid > * {
+	/* Selects the first decendent of the parent, regardless of tag */
 	flex: 1;
 	margin: 0 1%;
 	height: 100%;
